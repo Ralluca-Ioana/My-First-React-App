@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(242, 236, 227);
+}
+.contentCenter{
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+    font-family:Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
+    color: rgb(167, 192, 202);
+    text-align: center;
+}
+.input{
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    background-color: rgb(242, 236, 227);
+    margin: 30px 30px;
+    font-size: 2vw;
+    font-style: italic;
+    text-align: center;
+    outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttonInput{
+    font-size: 1.7vw;
+    font-style: italic;
+    border-radius: 50px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(113, 154, 154);
+    color: aliceblue;
+}
+.sectionList{
+    border: 10px solid rgb(237, 194, 201);
+    border-radius: 25px;
+    margin:0 17%;
+    font-family:Arial, sans-serif;
+    box-shadow: 2.5px 2px #888888;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul.myList{
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
 }
 
-.App-link {
-  color: #61dafb;
+li{
+    padding-left: 27.5%; 
+    font-size: 1.7vw;
+    font-weight: 700;
+    color: rgb(100, 98, 98);
+    margin: 10px 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonDelete{
+    font-size: 1.6vw;
+    text-align: center;
+    font-style: italic;
+    color: rgb(253, 241, 241);
+    border-radius: 50%;
+    border: none;
+    background-color: pink;
+    margin: 0 10px;
+    padding: 1px 8px;
+    box-shadow: 2.5px 2px #888888;
 }
