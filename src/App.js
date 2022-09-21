@@ -33,10 +33,8 @@ class App extends React.Component {
   }
 
   deleteElement(id){
-    //copy current list of elements
     const list = [...this.state.list];
  
-    //filter out element being deleted
     const updatedList = list.filter(element => element.id !== id);
    
     this.setState({list: updatedList});
